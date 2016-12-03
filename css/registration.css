@@ -1,0 +1,210 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Conv_HelveticaNeueCyr-Bold';
+  src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+  src: local("тШ║"), url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Conv_HelveticaNeueCyr-Roman';
+  src: url("../fonts/HelveticaNeueCyr-Roman.eot");
+  src: local("тШ║"), url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Roman.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Conv_HelveticaNeueCyr-Light';
+  src: url("../fonts/HelveticaNeueCyr-Light.eot");
+  src: local("тШ║"), url("../fonts/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Light.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Conv_HelveticaNeueCyr-Roman", serif; }
+
+*:focus {
+  outline: none; }
+
+.container {
+  margin: 0 auto; }
+
+@media (max-width: 360px) {
+  .container {
+    width: 360px; } }
+@media (max-width: 769px) {
+  .container {
+    width: 768px; } }
+@media (max-width: 1200px) {
+  .container {
+    width: 960px; } }
+.container {
+  width: 1600px; }
+
+@font-face {
+  font-family: 'Conv_HelveticaNeueCyr-Bold';
+  src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+  src: local("тШ║"), url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Conv_HelveticaNeueCyr-Roman';
+  src: url("../fonts/HelveticaNeueCyr-Roman.eot");
+  src: local("тШ║"), url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Roman.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Conv_HelveticaNeueCyr-Light';
+  src: url("../fonts/HelveticaNeueCyr-Light.eot");
+  src: local("тШ║"), url("../fonts/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Light.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Conv_HelveticaNeueCyr-Roman", serif; }
+
+*:focus {
+  outline: none; }
+
+.container {
+  margin: 0 auto; }
+
+@media (max-width: 360px) {
+  .container {
+    width: 360px; } }
+@media (max-width: 769px) {
+  .container {
+    width: 768px; } }
+@media (max-width: 1200px) {
+  .container {
+    width: 960px; } }
+.container {
+  width: 1600px; }
+
+header {
+  padding: 25px 0;
+  background: #010616;
+  z-index: 101;
+  position: relative; }
+  header .logo {
+    display: inline-block; }
+  header .nav {
+    display: inline-block;
+    position: relative;
+    float: right; }
+    header .nav a {
+      font-size: 24px;
+      font-family: "Conv_HelveticaNeueCyr-Bold", serif;
+      margin: 0;
+      text-transform: capitalize;
+      text-decoration: none;
+      color: #ffffff; }
+
+main.register-page {
+  z-index: 100;
+  position: absolute;
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  height: -webkit-calc(100vh - 100px);
+  height: -moz-calc(100vh - 100px);
+  height: calc(100vh - 100px);
+  width: 100%;
+  background: url("../img/background.png") center no-repeat;
+  background-size: cover;
+  color: #fff !important; }
+  main.register-page .register {
+    width: 640px;
+    margin: 0 auto; }
+    main.register-page .register .register-header {
+      margin: 85px 0;
+      position: relative; }
+      main.register-page .register .register-header .text {
+        max-width: 350px;
+        width: 100%;
+        display: inline-block;
+        margin-left: 40px; }
+      main.register-page .register .register-header h2 {
+        font-size: 48px;
+        font-family: "Conv_HelveticaNeueCyr-Bold", serif;
+        margin: 0;
+        text-transform: capitalize; }
+      main.register-page .register .register-header p {
+        font-size: 24px;
+        font-family: "Conv_HelveticaNeueCyr-Roman", serif;
+        margin: 15px 0 0 0; }
+      main.register-page .register .register-header .icon {
+        background-image: url(../img/pecil.png);
+        width: 73px;
+        height: 73px;
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 5px; }
+    main.register-page .register .register-form {
+      width: 100%;
+      max-width: 480px;
+      text-align: right;
+      color: white !important;
+      margin-left: auto; }
+      main.register-page .register .register-form .name-rows, main.register-page .register .register-form .password-rows {
+        margin-bottom: 50px; }
+      main.register-page .register .register-form .form-row {
+        position: relative;
+        /*
+        input[status-valid="true"] + label .icon {
+          fill: red;
+          stroke: red;
+        }
+        input[status-valid="false"] + label .icon:not(.status) {
+          fill: green;
+          stroke: green;
+        }
+        */ }
+        main.register-page .register .register-form .form-row input {
+          background: none;
+          border: none;
+          width: 420px;
+          font-size: 24px;
+          padding: 0;
+          margin: 10px 0;
+          color: white;
+          border-bottom: 1px solid white; }
+        main.register-page .register .register-form .form-row input::-webkit-input-placeholder {
+          color: white; }
+        main.register-page .register .register-form .form-row input + label {
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: -1; }
+        main.register-page .register .register-form .form-row .icon {
+          display: block;
+          position: relative;
+          width: 40px;
+          -webkit-transition: .6s;
+          transition: 0.6s;
+          fill: white;
+          stroke: white; }
+        main.register-page .register .register-form .form-row .icon.status {
+          position: absolute;
+          right: 0;
+          bottom: 15px; }
+      main.register-page .register .register-form button.btn {
+        border: none;
+        border-radius: 100px;
+        width: 320px;
+        opacity: 0.7;
+        background: #4a0218;
+        height: 55px;
+        font-size: 24px;
+        line-height: 55px;
+        color: white !important;
+        margin-top: 20px;
+        text-transform: uppercase; }
+      main.register-page .register .register-form button.btn:hover {
+        opacity: 1; }
+
+/*# sourceMappingURL=registration.css.map */
