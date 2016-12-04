@@ -30,9 +30,9 @@ main.register-page {
   padding-top: 100px;
   top: 0;
   left: 0;
-  height: -webkit-calc(100vh - 100px);
-  height: -moz-calc(100vh - 100px);
-  height: calc(100vh - 100px);
+  min-height: -webkit-calc(100vh - 100px);
+  min-height: -moz-calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   width: 100%;
   background: url('../img/background.png') center no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@ main.register-page {
 
   .register {
     width: 640px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 
     .register-header {
       margin: 85px 0;
@@ -58,7 +58,6 @@ main.register-page {
         margin: 0;
         text-transform: capitalize;
       }
-
       p {
         font-size: 24px;
         font-family: "Conv_HelveticaNeueCyr-Roman", serif;

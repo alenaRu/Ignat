@@ -1,24 +1,226 @@
-.container{
-  width: 1600px;
+$width: 1600px;
+.container {
+  max-width: $width;
+  header {
+    //background: #010616;
+  }
 }
 
-@media (max-width: 360px) {
-  .container{
-    width: 360px;
+@media (max-width: 1600px) {
+  .container {
+    max-width: 1000px !important;
+  }
+  header {
+    //background: #cad400;
+  }
+  main {
+    [class$="-header"] {
+      .text {
+        h2 {
+          font-size: 32px !important;
+        }
+        p {
+          font-size: 20px !important;
+        }
+      }
+    }
+    [class$="-form"] {
+      input {
+        font-size: 20px !important;
+      }
+      button.btn {
+        font-size: 20px !important;
+      }
+    }
   }
 }
-@media (max-width: 769px) {
-  .container{
-    width: 768px;
-  }
-}
+
 @media (max-width: 1200px) {
-  .container{
-    width: 960px;
+  .container {
+    max-width: 800px !important;
+  }
+  header {
+    //background: #551ad4;
   }
 }
-@media (max-width: 1444px) {
-  .container{
-    width: 1200px;
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 640px !important;
+  }
+  header {
+    //background: #d43b30;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 450px !important;
+  }
+  header {
+    //background: #c07fd4;
+  }
+  main {
+    .register {
+      width: 450px !important;
+    }
+    [class$="-header"] .icon {
+      display: none !important;
+    }
+
+    [class$="-form"] {
+      margin-left: 40px !important;
+      width: 350px !important;
+
+      input {
+        width: 300px !important;
+      }
+      button.btn {
+        width: 350px !important;
+      }
+    }
+    .login-header{
+      margin-bottom: 30px !important;
+    }
+
+    .login-form {
+      margin-left: 40px !important;
+      width: 300px !important;
+
+      input {
+        width: 230px !important;
+        font-size: 18px !important;
+      }
+
+      button.btn {
+        width: 250px !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 300px !important;
+  }
+  header {
+    //background: #55d433;
+    img {
+      height: 25px;
+    }
+  }
+  main {
+
+
+    .register {
+      width: 320px !important;
+    }
+    [class$="-header"] {
+      margin: 30px 0 !important;
+
+      .text {
+        width: 250px !important;
+        margin-left: 0px !important;
+        h2 {
+          font-size: 28px !important;
+        }
+        p {
+          font-size: 18px !important;
+        }
+      }
+      .icon {
+        display: none !important;
+      }
+    }
+    .name-rows, .password-rows{
+      margin-bottom:20px !important;
+    }
+    .register-form {
+      margin-left: 0 !important;
+      width: 300px !important;
+
+      input {
+        width: 250px !important;
+        font-size: 18px !important;
+      }
+
+      button.btn {
+        width: 300px !important;
+        font-size: 18px !important;
+      }
+    }
+    .login-form {
+      margin-left: 0 !important;
+      width: 250px !important;
+
+      input {
+        width: 200px !important;
+        font-size: 18px !important;
+      }
+
+      button.btn {
+        width: 250px !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+  header {
+    //background: #bcbf3e;
+    img {
+      height: 25px;
+    }
+  }
+  main {
+
+    .register {
+      width: 300px !important;
+
+    }
+    [class$="-header"] {
+      margin: 30px 0 !important;
+
+      .text {
+        width: 250px !important;
+        h2 {
+          font-size: 28px !important;
+        }
+        p {
+          font-size: 16px !important;
+        }
+      }
+      .icon {
+        display: none !important;
+      }
+    }
+
+    [class$="-form"] {
+      margin-left: 0 !important;
+      width: 280px !important;
+
+      input {
+        width: 230px !important;
+        font-size: 18px !important;
+      }
+
+      button.btn {
+        width: 300px !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
